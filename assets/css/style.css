@@ -1,12 +1,113 @@
 .title {
+color:white;
+text-shadow: text-shadow: 2px 2px #ff0000;
 height:100px;
 text-align:center;
-margin-top:100px;
+margin-top:25px;
 font-weight:bold;
 font-size:40px;
+}
+
+.alert-heading {
+    color:#ff2727;
 }
 
 .story {
 
 text-align:center;
+opacity:1;
 }
+
+body {
+    background-color:transparent;
+}
+
+.container {
+
+    margin:auto;
+}
+
+html { 
+     /* background-image: url("http://www.fullhdwpp.com/wp-content/uploads/New_York_Cityscape_www.FullHDWpp.com_.jpg"); */
+  /* background-color:black; */
+  background: url("http://www.fullhdwpp.com/wp-content/uploads/New_York_Cityscape_www.FullHDWpp.com_.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height:100%;
+  width:100%
+  /* position:absolute; */
+   
+  }
+  
+.monster-1 {
+     
+     position:relative;
+     width:200px;
+     height:200px;
+     margin-top:50px;
+     margin-left:50px;
+     transition: all .2s ease-in-out;
+ }
+
+ .monster-1:hover {
+    transform: scale(1.5);
+ }
+
+
+ .monster-duplicate {
+     
+    position:relative;
+    width:200px;
+    height:200px;
+    margin-top:50px;
+    margin-left:50px;
+    transition: all .2s ease-in-out;
+}
+
+.monster-duplicate:hover {
+   transform: scale(1.5);
+}
+
+ .monster-row {
+     margin-top:50px;
+    height:100px;
+
+ }
+
+ .game-stats {
+     height:75px;
+     background-color:white;
+ }
+
+ .weapons {
+     position:relative;
+     width:150px;
+     height:150px;
+     margin-left:25px;
+    margin-top:15px;
+    margin-bottom:50px;
+
+ }
+    
+.grow { 
+     transition: all .2s ease-in-out; }
+
+.grow:hover { 
+        transform: scale(1.1); }
+
+ .col-3{
+    height:50px;
+ }
+
+ .text-weapons {
+     height:25px;
+     margin-top:200px;
+     text-align:center;
+     background-color:white;
+ }
+
+ #monster-img {
+     height:250px;
+ }
