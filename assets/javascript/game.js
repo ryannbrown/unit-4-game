@@ -9,7 +9,7 @@ var fireSound = new Audio("fire.mp3");
 
 // Monster Images
 var images = ['badmoth.png', 'scarymonster.png', 'dino.png', 'godzilla.png', 'oneeye.png', 'pumpkin.png'];
-$('<img class="monster-1" src="assets/images/monsters/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#monster-img');
+$('#monster-img').html(('<img class="monster-1" src="assets/images/monsters/' + images[Math.floor(Math.random() * images.length)] + '">'));
 
 var monsterHealth = Math.floor(Math.random()*250+50);
 
@@ -31,8 +31,8 @@ var machineGun = Math.floor(Math.random()*15+1);
 
 function reset(){
 
-var images = ['badmoth.png', 'scarymonster.png', 'dino.png', 'godzilla.png', 'oneeye.png', 'pumpkin.png'];
-$('<img class="monster-duplicate" src="assets/images/monsters/' + images[Math.floor(Math.random() * images.length)] + '">').prependTo('#monster-img');
+$('#monster-img').html(('<img class="monster-1" src="assets/images/monsters/' + images[Math.floor(Math.random() * images.length)] + '">'));
+// $('<img class="monster-1" src="assets/images/monsters/' + images[Math.floor(Math.random() * images.length)] + '">').prependTo('#monster-img');
 monsterHealth = Math.floor(Math.random()*250+50);
 $("#monsters-health").text(monsterHealth)
 var fire = Math.floor(Math.random()*15+5);
