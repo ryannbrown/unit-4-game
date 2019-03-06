@@ -77,8 +77,9 @@ html {
  }
 
  .game-stats {
-     height:75px;
-     background-color:white;
+     height:80px;
+     background-color: white;
+     text-align:center;
  }
 
  .weapons {

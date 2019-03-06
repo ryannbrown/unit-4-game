@@ -73,7 +73,7 @@ $("#monsters-health").text(monsterHealth);
 //On click functions with if then statements...
 
 $('#fire').on('click', function(){
-    // fireSound.play();
+    document.getElementById('fire-sound').play()
     damage = damage + fire;
     console.log(damage);
     monsterHealth = monsterHealth - fire;
@@ -100,6 +100,7 @@ $('#fire').on('click', function(){
 });
 
 $('#grenade').on('click', function(){
+    document.getElementById('grenade-sound').play()
     damage = damage + grenade;
     console.log(damage);
     monsterHealth = monsterHealth - grenade;
@@ -119,6 +120,7 @@ $('#grenade').on('click', function(){
 });
 
 $('#kitty').on('click', function(){
+    document.getElementById('kitty-sound').play()
   damage = damage + kitty;
     console.log(damage);
     monsterHealth = monsterHealth - kitty;
@@ -138,6 +140,7 @@ $('#kitty').on('click', function(){
 });
 
 $('#machine-gun').on('click', function(){
+    document.getElementById('gun-sound').play()
    damage = damage + grenade;
     console.log(damage);
     monsterHealth = monsterHealth - grenade;
