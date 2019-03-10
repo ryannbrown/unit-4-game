@@ -1,9 +1,9 @@
 
-// <!-- Sound Effects -->
-var fireSound = $(".fire-sound");
-var kittySound = new Audio("./assets/sounds/kitten.mp3");
-var gunSound = new Audio("gun.mp3");
-var fireSound = new Audio("fire.mp3");
+// // <!-- Sound Effects -->
+// var fireSound = $(".fire-sound");
+// var kittySound = new Audio("./assets/sounds/kitten.mp3");
+// var gunSound = new Audio("gun.mp3");
+// var fireSound = new Audio("fire.mp3");
 
 
 
@@ -50,7 +50,7 @@ reset();
 };
 
 function loser(){
-alert("DEATH AND UTTER DESTRUCTION You have been hasty with your resources the sneaky Russians have stolen NYC!")
+alert("DEATH AND UTTER DESTRUCTION You have been hasty with your resources and the sneaky Russians have stolen NYC!")
 losses++;
 $("#losses").text(losses)
 reset();
